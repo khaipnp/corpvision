@@ -1,3 +1,5 @@
-# corpvision
+# Bài tập layout Corpvision
 
-Sử dụng Bootstrap 4.6
+Các Library sử dụng:
+
+1. Sử dụng Bootstrap 4.6
