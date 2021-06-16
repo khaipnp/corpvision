@@ -7,3 +7,16 @@
 html, body{
     font-family: 'Jost', sans-serif;
 }
+/* FEEDBACK */
+.feedback .small-title{
+    color: #7e7d7d;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.feedback .big-title{
+    color: #3f3a64;
+    font-size: 35px;
+    font-weight: 700;
+}
