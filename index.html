@@ -21,6 +21,9 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <!-- BOOTSTRAP -->
     <link
       rel="stylesheet"
@@ -34,17 +37,32 @@
   <body>
     <header></header>
     <section class="feedback py-5">
-        <div class="container">
-            <h5 class="small-title text-center">
-                Happy clients Feedback
-            </h5>
-            <h3 class="big-title text-center">
-                Reviews and Testimonials
-            </h3>
-            <div class="testimonials">
-                
-            </div>
+      <div class="feedback__content container">
+        <div class="title row">
+          <h5 class="small-title col-12 text-center">Happy clients Feedback</h5>
+          <h3 class="big-title col-12 text-center">Reviews and Testimonials</h3>
         </div>
+        <div class="testimonials row">
+          <div class="testimonials__item col-12">
+            <p class="text-center">
+              Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate
+              rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+              Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Esse architecto est ea sunt eligendi
+              cum?
+            </p>
+            <div class="testimonials__desc row align-items-center justify-content-center">
+                <div class="avatar col-6">
+                    <img src="./img/team1.jpg" alt="s1">
+                </div>
+                <div class="name col-6">
+                    <h4>Julia Sakura</h4>
+                    <p>Student</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <footer></footer>
     <!-- SCRIPT -->
@@ -59,5 +77,12 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <!-- OWL CAROUSEL -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- <script>
+      $(document).ready(function () {
+        $(".testimonials").owlCarousel();
+      });
+    </script> -->
   </body>
 </html>
