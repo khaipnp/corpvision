@@ -83,11 +83,21 @@ html, body{
     border-radius: 10px;
 }
 
+.card__thumbnail{
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
 .card__thumbnail img{
     width: 100%;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
     cursor: pointer;
+    transition: all .5s;
+}
+
+.card__thumbnail img:hover{
+    transform: scale(1.15);
 }
 
 .card__content{
@@ -180,34 +190,39 @@ html, body{
 .input__email form{
     border: 1px solid rgb(255, 255, 255,.15);
     border-radius: 5px;
+    height: 60px;
+    background: rgb(0, 0, 0, .35);
+    max-width: 550px;
 }
 
 .input__email input{
-    background: rgb(0, 0, 0, .35);
     color: #999;
     padding: 20px 20px;
     border: none;
     font-size: 1rem;
-    width: 350px;
     outline: none;
+    background: none;
 }
 
 .input__email button{
-    background: #00a63f;
+    background-color: #00a63f;
     color: #fff;
-    padding: 20px;
+    height: 60px;
+    padding: 0 20px;
     border: none;
     font-size: 1rem;
-    border-radius: 0 5px 5px 0;
     font-weight: 700;
+    line-height: 60px;
+    text-align: center;
 }
 
 .input__email i{
-    padding: 20px 16px;
+    text-align: center;
     color: #999;
     font-size: 1rem;
-    background: rgb(0, 0, 0, .35);
     border-right: 1px solid rgb(255, 255, 255,.15);
+    line-height: 60px;
+    padding: 0 15px;
 }
 
 /* FOOTER */
