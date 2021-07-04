@@ -236,17 +236,6 @@ footer {
 }
 
 .footer__content p {
-  color: #97a1a9;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.footer__content i {
-  color: #97a1a9;
-}
-
-.footer__content h4 {
-  color: #fefefe;
 }
 
 .footer__content .list-group-item {
@@ -254,5 +243,5 @@ footer {
   color: #97a1a9;
   border: none !important;
   font-size: 18px;
-  padding: 10px 0 !important;
+  line-height: 28px;
 }
