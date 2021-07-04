@@ -486,8 +486,8 @@ svg {
   margin-right: 5px;
   opacity: 0.8;
 }
-/* .homeblock .service-list li a span {
-} */
+/*
+
 
 /* about-right */
 .about__image .position__relative {
@@ -504,7 +504,20 @@ svg {
   align-items: center !important;
 }
 
-/* end about */
+.overlay__search input{
+  background: none !important;
+  color: #fff !important;
+  outline: 0 !important;
+  font-size: 54px !important;
+  font-weight: 200;
+  height: 100vh;
+  width: 100%;
+  border: none !important;
+}
+
+.overlay__search input::placeholder{
+  color: #fff;
+}
 
 /* CHALLENGES */
 /* .features left */
