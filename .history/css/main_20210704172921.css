@@ -272,6 +272,10 @@ footer {
   font-weight: 500;
 }
 
+.social__network a:hover {
+  color: #fff;
+}
+
 .footer__content a:hover {
   text-decoration: none;
   color: #fefefe;

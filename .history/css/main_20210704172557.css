@@ -213,16 +213,10 @@ body {
   color: #fff;
   padding: 0 20px;
   border: 2px solid #00a63f;
-  border-radius: 0 5px 5px 0;
+  border-radius: 5px;
   font-size: 1rem;
   font-weight: 700;
   line-height: 60px;
-  transition: all 0.5s;
-}
-
-.input__email button:hover {
-  background-color: #008030;
-  border: 2px solid #008030;
 }
 
 .input__email i {

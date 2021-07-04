@@ -187,16 +187,15 @@ body {
 }
 
 .input__email {
-  margin: auto;
+  display: flex;
 }
 
-.subscribe__box {
-  align-items: center;
+.input__email form {
   border: 1px solid rgb(255, 255, 255, 0.15);
   border-radius: 5px;
+  height: 60px;
   background: rgb(0, 0, 0, 0.35);
   max-width: 550px;
-  margin: auto;
 }
 
 .input__email input {
@@ -211,25 +210,22 @@ body {
 .input__email button {
   background-color: #00a63f;
   color: #fff;
+  height: 60px;
   padding: 0 20px;
-  border: 2px solid #00a63f;
-  border-radius: 0 5px 5px 0;
+  border: none;
   font-size: 1rem;
   font-weight: 700;
   line-height: 60px;
-  transition: all 0.5s;
-}
-
-.input__email button:hover {
-  background-color: #008030;
-  border: 2px solid #008030;
+  text-align: center;
 }
 
 .input__email i {
   text-align: center;
   color: #999;
+  font-size: 1rem;
   border-right: 1px solid rgb(255, 255, 255, 0.15);
-  padding: 0 25px;
+  line-height: 60px;
+  padding: 0 15px;
 }
 
 /* FOOTER */
