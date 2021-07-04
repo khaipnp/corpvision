@@ -241,10 +241,6 @@ footer {
   line-height: 28px;
 }
 
-.footer__content i {
-  color: #97a1a9;
-}
-
 .footer__content h4 {
   color: #fefefe;
 }
@@ -254,5 +250,6 @@ footer {
   color: #97a1a9;
   border: none !important;
   font-size: 18px;
-  padding: 10px 0 !important;
+  line-height: 28px;
+  padding-left: 0 !important;
 }
